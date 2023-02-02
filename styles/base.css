@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+}
+
+html, body, .wrapper{
+    height: 100%;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(107, 106, 106);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 218, 187);
+}
+header .header__contacts{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+main{
+    flex: 1 1 auto;
+}
+
+footer{
+
+}
